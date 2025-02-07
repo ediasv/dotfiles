@@ -1,0 +1,2 @@
+# fzf and tmux attach to directory
+bindkey -s ^f "tmux-sessionizer\n"
