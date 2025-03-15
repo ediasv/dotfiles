@@ -1,0 +1,12 @@
+[user]
+	name = Eduardo Dias
+	email = 142503604+ediasv@users.noreply.github.com
+[core]
+	editor = nvim
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[pull]
+	rebase = true
