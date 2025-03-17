@@ -38,10 +38,11 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
 exec --no-startup-id xrandr --output eDP-1 --brightness 1 --gamma 1.0:0.85:0.8
 exec --no-startup-id xrandr --output HDMI-1 --above eDP-1 --brightness 1 --gamma 1.0:0.85:0.8
-exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper/penguinord.jpg
+# exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper/penguinord.jpg
 exec --no-startup-id ~/.local/bin/tap-to-click.sh
 exec --no-startup-id ~/.local/bin/inverse-scroll.sh
-exec --no-startup-id ~/.local/bin/wacom.sh
+# exec --no-startup-id ~/.local/bin/wacom.sh
+exec --no-startup-id setxkbmap -layout br -variant abnt2
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -65,7 +66,7 @@ floating_modifier $mod
 bindsym $mod+Return exec alacritty
 
 # start browser
-bindsym $mod+c exec google-chrome
+bindsym $mod+c exec firefox
 
 # start flameshot
 bindsym $mod+Shift+s exec flameshot gui
