@@ -37,8 +37,8 @@ exec --no-startup-id nm-applet
 # my execs
 exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
 exec --no-startup-id xrandr --output eDP-1 --brightness 1 --gamma 1.0:0.85:0.8
-exec --no-startup-id xrandr --output HDMI-1 --above eDP-1 --brightness 1 --gamma 1.0:0.85:0.8
-# exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper/penguinord.jpg
+exec --no-startup-id xrandr --output HDMI-1 --right-of eDP-1 --brightness 1 --gamma 1.0:0.85:0.8
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/penguinord.jpg
 exec --no-startup-id ~/.local/bin/tap-to-click.sh
 exec --no-startup-id ~/.local/bin/inverse-scroll.sh
 # exec --no-startup-id ~/.local/bin/wacom.sh
@@ -217,6 +217,7 @@ bindsym $mod+r mode "resize"
 # client.background       #F8F8F2
 
 bar {
+  font pango:JetBrains Mono Nerd Font 9
   status_command i3status
   # colors {
   #   background #282A36
