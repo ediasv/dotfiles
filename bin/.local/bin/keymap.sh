@@ -2,7 +2,7 @@
 
 # Função para mostrar como usar o script
 usage() {
-  echo "Uso: $0 [us|br]"
+  echo "Uso: $0 [us|br|intl]"
   exit 1
 }
 
@@ -20,6 +20,10 @@ us)
 br)
   setxkbmap br
   echo "Layout do teclado alterado para BR (Português do Brasil)."
+  ;;
+intl)
+  setxkbmap us -variant intl
+  echo "Layout do teclado alterado para US-Intl (Inglês Internacional)."
   ;;
 *)
   usage
