@@ -6,7 +6,7 @@ return {
     priority = 1000, -- Carregar antes dos outros plugins
     opts = {
       colors = {
-        bg = "#151515",
+        bg = "#212121",
       },
     },
   },

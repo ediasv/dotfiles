@@ -3,7 +3,7 @@ TERM = "xterm-256color"
 
 [window]
 padding = { x = 5, y = 2 }
-# decorations = "none"
+decorations = "none"
 
 [mouse]
 hide_when_typing = true
@@ -13,7 +13,7 @@ normal = { family = "JetBrainsMono Nerd Font Mono" }
 bold = { family = "JetBrainsMono Nerd Font Mono" }
 italic = { family = "JetBrainsMono Nerd Font Mono" }
 bold_italic = { family = "JetBrainsMono Nerd Font Mono" }
-size = 10.5
+size = 11
 
 [general]
-import = ["~/.config/alacritty/themes/dracula_plus.toml"]
+import = ["~/.config/alacritty/themes/onedark.toml"]
