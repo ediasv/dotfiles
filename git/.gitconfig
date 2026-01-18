@@ -2,7 +2,7 @@
 	name = Eduardo Dias
 	email = 142503604+ediasv@users.noreply.github.com
 [core]
-	editor = nvim
+	editor = vi
 [color]
 	status = auto
 	branch = auto
