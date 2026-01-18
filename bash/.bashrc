@@ -32,9 +32,6 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
-
 # User specific aliases and functions
 if [ -d ~/.bashrc.d ]; then
   for rc in ~/.bashrc.d/*; do
@@ -45,18 +42,17 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+# Enable case-insensitive tab completion
+bind 'set completion-ignore-case on'
+
 # Load rust environment if installed
 if [ -f "$HOME/.cargo/env" ]; then
   . "$HOME/.cargo/env"
 fi
 
-# Enable case-insensitive tab completion
-bind 'set completion-ignore-case on'
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-
-eval "$(starship init bash)"
-
-export QSYS_ROOTDIR="/home/ediasv/.cache/yay/quartus-free/pkg/quartus-free-quartus/opt/intelFPGA/24.1/quartus/sopc_builder/bin"
+if [ -f "$HOME/.nvm/nvm.sh" ]; then
+  # Load nvm
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+fi
