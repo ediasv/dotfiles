@@ -1,0 +1,31 @@
+{
+	"encryptedPasskey": "$01:e6a45248c295ffc042ce78d52eb0cee38485471fd044d5c48ed2a8e87f609bb8054329ab6000a566c654d7a5a5e393411457a9770e65dd3a39c19938f51f16a41df1db6c92640e90f993636edaa2256b",
+	"cookies": {
+		"app.elevecrm.com.br": [
+			{
+				"key": "PHPSESSID",
+				"value": "$01:293e83ece168f1c2a6bb4bb25ac82cbca50b4f637653f95a9f1d9a69ab7a3a98",
+				"domain": "app.elevecrm.com.br",
+				"path": "/",
+				"hostOnly": false,
+				"creation": "2026-01-16T02:03:35.222Z",
+				"lastAccessed": "2026-01-16T02:03:35.222Z"
+			}
+		],
+		"facebook.com": [
+			{
+				"key": "sb",
+				"value": "$01:938c2222bd07cfefc570efc2241a43b1a8fd3877105cace2b28a60d5eaed69fe",
+				"expires": "2027-02-11T17:30:35.000Z",
+				"maxAge": 34560000,
+				"domain": "facebook.com",
+				"path": "/",
+				"secure": true,
+				"httpOnly": true,
+				"hostOnly": false,
+				"creation": "2026-01-16T02:03:35.225Z",
+				"lastAccessed": "2026-01-16T03:33:18.548Z"
+			}
+		]
+	}
+}

@@ -1,0 +1,152 @@
+[2025-11-21 12:24:30.269] [info]  AutoUpdater configured.
+[2025-11-21 12:24:30.271] [info]  Checking for update
+[2025-11-21 12:24:30.288] [info]  Generated new staging user ID: 9900be67-ca71-5650-b0c8-3fe230098ba6
+[2025-11-21 12:24:30.769] [info]  Update for version 2.14.2 is not available (latest version: 2.14.2, downgrade is disallowed).
+[2025-11-25 18:52:11.158] [info]  AutoUpdater configured.
+[2025-11-25 18:52:11.160] [info]  Checking for update
+[2025-11-25 18:52:11.621] [info]  Update for version 2.14.2 is not available (latest version: 2.14.2, downgrade is disallowed).
+[2025-11-26 10:59:04.506] [info]  AutoUpdater configured.
+[2025-11-26 10:59:04.519] [info]  Checking for update
+[2025-11-26 10:59:05.310] [info]  Update for version 2.14.2 is not available (latest version: 2.14.2, downgrade is disallowed).
+[2025-11-30 22:46:55.182] [info]  AutoUpdater configured.
+[2025-11-30 22:46:55.193] [info]  Checking for update
+[2025-11-30 22:46:56.794] [info]  Found version 2.15.0 (url: bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm)
+[2025-11-30 22:46:56.794] [info]  Update to 2.15.0 available, download will start
+[2025-11-30 22:46:56.795] [info]  Downloading update from bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm
+[2025-11-30 22:46:59.212] [info]  New version 2.15.0 has been downloaded to /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb
+[2025-11-30 22:46:59.214] [info]  Update to 2.15.0 downloaded
+[2025-11-30 22:50:33.503] [info]  Auto install update on quit
+[2025-11-30 22:50:33.504] [info]  Install: isSilent: true, isForceRunAfter: false
+[2025-11-30 22:50:33.505] [info]  Executing: which gksudo || which kdesudo || which pkexec || which beesu with args: 
+[2025-11-30 22:50:33.522] [info]  Executing: /usr/bin/pkexec --disable-internal-agent with args: /bin/bash,-c,'dpkg -i /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb || apt-get install -f -y'
+[2025-11-30 22:50:40.595] [info]  AutoUpdater configured.
+[2025-11-30 22:50:40.597] [info]  Checking for update
+[2025-11-30 22:50:42.337] [info]  Found version 2.15.0 (url: bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm)
+[2025-11-30 22:50:42.338] [info]  Update to 2.15.0 available, download will start
+[2025-11-30 22:50:42.339] [info]  Downloading update from bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm
+[2025-11-30 22:50:42.735] [info]  Update has already been downloaded to /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb).
+[2025-11-30 22:50:42.735] [info]  Update to 2.15.0 downloaded
+[2025-11-30 22:53:13.988] [info]  Auto install update on quit
+[2025-11-30 22:53:13.990] [info]  Install: isSilent: true, isForceRunAfter: false
+[2025-11-30 22:53:13.991] [info]  Executing: which gksudo || which kdesudo || which pkexec || which beesu with args: 
+[2025-11-30 22:53:14.007] [info]  Executing: /usr/bin/pkexec --disable-internal-agent with args: /bin/bash,-c,'dpkg -i /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb || apt-get install -f -y'
+[2025-11-30 22:53:27.552] [info]  AutoUpdater configured.
+[2025-11-30 22:53:27.554] [info]  Checking for update
+[2025-11-30 22:53:29.266] [info]  Found version 2.15.0 (url: bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm)
+[2025-11-30 22:53:29.267] [info]  Update to 2.15.0 available, download will start
+[2025-11-30 22:53:29.267] [info]  Downloading update from bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm
+[2025-11-30 22:53:29.899] [info]  Update has already been downloaded to /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb).
+[2025-11-30 22:53:29.900] [info]  Update to 2.15.0 downloaded
+[2025-11-30 23:48:52.498] [info]  Auto install update on quit
+[2025-11-30 23:48:52.502] [info]  Install: isSilent: true, isForceRunAfter: false
+[2025-11-30 23:48:52.502] [info]  Executing: which gksudo || which kdesudo || which pkexec || which beesu with args: 
+[2025-11-30 23:48:52.515] [info]  Executing: /usr/bin/pkexec --disable-internal-agent with args: /bin/bash,-c,'dpkg -i /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb || apt-get install -f -y'
+[2025-11-30 23:49:08.190] [info]  AutoUpdater configured.
+[2025-11-30 23:49:08.202] [info]  Checking for update
+[2025-11-30 23:49:09.872] [info]  Found version 2.15.0 (url: bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm)
+[2025-11-30 23:49:09.873] [info]  Update to 2.15.0 available, download will start
+[2025-11-30 23:49:09.873] [info]  Downloading update from bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm
+[2025-11-30 23:49:10.716] [info]  Update has already been downloaded to /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb).
+[2025-11-30 23:49:10.716] [info]  Update to 2.15.0 downloaded
+[2025-11-30 23:50:17.239] [info]  Auto install update on quit
+[2025-11-30 23:50:17.241] [info]  Install: isSilent: true, isForceRunAfter: false
+[2025-11-30 23:50:17.242] [info]  Executing: which gksudo || which kdesudo || which pkexec || which beesu with args: 
+[2025-11-30 23:50:17.258] [info]  Executing: /usr/bin/pkexec --disable-internal-agent with args: /bin/bash,-c,'dpkg -i /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb || apt-get install -f -y'
+[2025-11-30 23:50:41.540] [info]  AutoUpdater configured.
+[2025-11-30 23:50:41.542] [info]  Checking for update
+[2025-11-30 23:50:43.610] [info]  Found version 2.15.0 (url: bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm)
+[2025-11-30 23:50:43.610] [info]  Update to 2.15.0 available, download will start
+[2025-11-30 23:50:43.611] [info]  Downloading update from bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm
+[2025-11-30 23:50:43.887] [info]  Update has already been downloaded to /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb).
+[2025-11-30 23:50:43.888] [info]  Update to 2.15.0 downloaded
+[2025-11-30 23:50:47.800] [info]  Auto install update on quit
+[2025-11-30 23:50:47.801] [info]  Install: isSilent: true, isForceRunAfter: false
+[2025-11-30 23:50:47.802] [info]  Executing: which gksudo || which kdesudo || which pkexec || which beesu with args: 
+[2025-11-30 23:50:47.819] [info]  Executing: /usr/bin/pkexec --disable-internal-agent with args: /bin/bash,-c,'dpkg -i /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb || apt-get install -f -y'
+[2025-11-30 23:52:07.528] [info]  AutoUpdater configured.
+[2025-11-30 23:52:07.530] [info]  Checking for update
+[2025-11-30 23:52:09.019] [info]  Found version 2.15.0 (url: bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm)
+[2025-11-30 23:52:09.020] [info]  Update to 2.15.0 available, download will start
+[2025-11-30 23:52:09.020] [info]  Downloading update from bruno_2.15.0_x86_64_linux.AppImage, bruno_2.15.0_amd64_linux.deb, bruno_2.15.0_x86_64_linux.rpm
+[2025-11-30 23:52:09.675] [info]  Update has already been downloaded to /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb).
+[2025-11-30 23:52:09.676] [info]  Update to 2.15.0 downloaded
+[2025-11-30 23:52:36.990] [info]  Auto install update on quit
+[2025-11-30 23:52:36.992] [info]  Install: isSilent: true, isForceRunAfter: false
+[2025-11-30 23:52:36.993] [info]  Executing: which gksudo || which kdesudo || which pkexec || which beesu with args: 
+[2025-11-30 23:52:37.009] [info]  Executing: /usr/bin/pkexec --disable-internal-agent with args: /bin/bash,-c,'dpkg -i /home/ediasv/.cache/bruno-updater/pending/bruno_2.15.0_amd64_linux.deb || apt-get install -f -y'
+[2025-11-30 23:52:47.594] [info]  AutoUpdater configured.
+[2025-11-30 23:52:47.595] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-11-30 23:52:52.957] [info]  AutoUpdater configured.
+[2025-11-30 23:52:52.958] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-02 22:11:03.533] [info]  AutoUpdater configured.
+[2025-12-02 22:11:03.544] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-03 10:31:58.788] [info]  AutoUpdater configured.
+[2025-12-03 10:31:58.800] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-03 14:55:40.357] [info]  AutoUpdater configured.
+[2025-12-03 14:55:40.369] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-08 13:13:33.413] [info]  AutoUpdater configured.
+[2025-12-08 13:13:33.430] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-12 11:27:54.882] [info]  AutoUpdater configured.
+[2025-12-12 11:27:54.885] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-12 17:06:11.422] [info]  AutoUpdater configured.
+[2025-12-12 17:06:11.434] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-16 15:54:09.753] [info]  AutoUpdater configured.
+[2025-12-16 15:54:09.755] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-18 09:39:53.799] [info]  AutoUpdater configured.
+[2025-12-18 09:39:53.810] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-24 15:21:43.299] [info]  AutoUpdater configured.
+[2025-12-24 15:21:43.301] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-24 17:41:35.668] [info]  AutoUpdater configured.
+[2025-12-24 17:41:35.670] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-24 20:17:06.218] [info]  AutoUpdater configured.
+[2025-12-24 20:17:06.220] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-25 11:40:16.864] [info]  AutoUpdater configured.
+[2025-12-25 11:40:16.876] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-26 21:19:30.500] [info]  AutoUpdater configured.
+[2025-12-26 21:19:30.512] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2025-12-26 23:34:40.305] [info]  AutoUpdater configured.
+[2025-12-26 23:34:40.317] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-05 12:53:34.070] [info]  AutoUpdater configured.
+[2026-01-05 12:53:34.072] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-06 09:29:03.538] [info]  AutoUpdater configured.
+[2026-01-06 09:29:03.540] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-06 09:57:53.354] [info]  AutoUpdater configured.
+[2026-01-06 09:57:53.357] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-06 10:01:50.473] [info]  AutoUpdater configured.
+[2026-01-06 10:01:50.485] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-06 10:29:36.322] [info]  AutoUpdater configured.
+[2026-01-06 10:29:36.332] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-06 13:57:46.073] [info]  AutoUpdater configured.
+[2026-01-06 13:57:46.085] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-07 09:55:49.114] [info]  AutoUpdater configured.
+[2026-01-07 09:55:49.116] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-07 14:19:23.475] [info]  AutoUpdater configured.
+[2026-01-07 14:19:23.487] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-07 14:49:39.386] [info]  AutoUpdater configured.
+[2026-01-07 14:49:39.388] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-07 18:46:29.628] [info]  AutoUpdater configured.
+[2026-01-07 18:46:29.641] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-08 09:27:14.082] [info]  AutoUpdater configured.
+[2026-01-08 09:27:14.084] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-08 23:24:44.935] [info]  AutoUpdater configured.
+[2026-01-08 23:24:44.947] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-09 08:46:14.655] [info]  AutoUpdater configured.
+[2026-01-09 08:46:14.667] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-12 00:27:49.837] [info]  AutoUpdater configured.
+[2026-01-12 00:27:49.840] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-12 08:48:30.020] [info]  AutoUpdater configured.
+[2026-01-12 08:48:30.023] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-12 13:58:34.933] [info]  AutoUpdater configured.
+[2026-01-12 13:58:34.937] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-13 08:28:40.656] [info]  AutoUpdater configured.
+[2026-01-13 08:28:40.674] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-13 19:10:08.423] [info]  AutoUpdater configured.
+[2026-01-13 19:10:08.435] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-14 07:25:28.863] [info]  AutoUpdater configured.
+[2026-01-14 07:25:28.876] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-14 09:23:52.252] [info]  AutoUpdater configured.
+[2026-01-14 09:23:52.256] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-14 13:10:51.276] [info]  AutoUpdater configured.
+[2026-01-14 13:10:51.288] [info]  Auto-update is disabled by user preference. Skipping update check.
+[2026-01-15 23:03:34.464] [info]  AutoUpdater configured.
+[2026-01-15 23:03:34.480] [info]  Auto-update is disabled by user preference. Skipping update check.

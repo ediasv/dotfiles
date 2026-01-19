@@ -1,0 +1,46 @@
+{
+	"collections": [
+		{
+			"path": "/home/ediasv/Documents/Sample API Collection",
+			"securityConfig": {
+				"jsSandboxMode": "safe"
+			}
+		},
+		{
+			"path": "/home/ediasv/Documents/engagement-service api collection/engagement-service",
+			"securityConfig": {
+				"jsSandboxMode": "safe"
+			}
+		},
+		{
+			"path": "/home/ediasv/collections/whatsapp-service",
+			"securityConfig": {
+				"jsSandboxMode": "safe"
+			}
+		},
+		{
+			"path": "/home/ediasv/collections/engagement-service",
+			"securityConfig": {
+				"jsSandboxMode": "safe"
+			}
+		},
+		{
+			"path": "/home/ediasv/repos/banana-split/backend/banana-split-collection",
+			"securityConfig": {
+				"jsSandboxMode": "developer"
+			}
+		},
+		{
+			"path": "/home/ediasv/collections/whatsapp-cloud-service",
+			"securityConfig": {
+				"jsSandboxMode": "safe"
+			}
+		},
+		{
+			"path": "/home/ediasv/collections/meta",
+			"securityConfig": {
+				"jsSandboxMode": "safe"
+			}
+		}
+	]
+}
