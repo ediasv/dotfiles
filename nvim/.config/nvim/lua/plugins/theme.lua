@@ -24,7 +24,7 @@ return {
     priority = 1000,
     config = function()
       require("onedark").setup({
-        style = "darker",
+        style = "warmer",
       })
     end,
   },
@@ -66,7 +66,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight-night",
+      colorscheme = "onedark",
     },
   },
 }

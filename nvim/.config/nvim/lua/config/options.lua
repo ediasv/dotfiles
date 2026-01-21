@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.opt.relativenumber = true
 vim.opt.spelllang = { "en", "pt_br" }
+vim.o.termguicolors = false
