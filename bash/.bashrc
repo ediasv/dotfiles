@@ -56,3 +56,5 @@ if [ -f "$HOME/.nvm/nvm.sh" ]; then
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
   [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 fi
+
+alias claude-mem='bun "/home/ediasv/.claude/plugins/cache/thedotmack/claude-mem/10.4.0/scripts/worker-service.cjs"'

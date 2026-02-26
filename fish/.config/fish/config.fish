@@ -28,5 +28,7 @@ if status is-interactive
     exec tmux new-session -A -s default
 end
 
+mise activate fish | source
+
 # opencode
 fish_add_path /home/ediasv/.opencode/bin
